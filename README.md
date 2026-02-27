@@ -20,13 +20,10 @@ npm run build
 
 ## GitHub Pages 배포
 
-1. 이 저장소를 `blueberrrrrry.github.io` 이름으로 푸시한 상태에서
-2. **Settings → Pages**에서 Source를 **GitHub Actions**로 선택하거나,
-3. 또는 **main** 브랜치의 **/ (root)** 또는 **/docs** 폴더를 선택한 뒤,  
-   빌드 결과물을 올리려면:
-   - `npm run build` 후 `dist` 내용을 **docs** 폴더로 복사해 커밋하거나
-   - 아래처럼 GitHub Actions로 자동 배포할 수 있습니다.
+main 브랜치에 푸시하면 GitHub Actions가 빌드 후 **gh-pages** 브랜치에 결과물을 푸시합니다.
 
-### GitHub Actions로 자동 배포
+**⚠️ 반드시 설정:**  
+**Settings → Pages → Build and deployment → Source** 를 **Deploy from a branch** 로 두고, **Branch** 를 **gh-pages** / **/(root)** 로 선택한 뒤 Save 하세요.
 
-`.github/workflows/deploy.yml` 파일을 추가하고, main에 푸시하면 빌드 후 Pages에 자동 배포됩니다.
+- **main**을 선택하면 소스 코드만 배포되어, `.ts` 파일이 비디오 MIME 타입으로 잘못 전달되면서 스크립트 로드 에러가 납니다.
+- **gh-pages** 브랜치에는 빌드된 파일만 있으므로, 이 브랜치를 선택해야 사이트가 정상적으로 열립니다.
