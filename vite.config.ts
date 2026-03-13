@@ -2,7 +2,7 @@ import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 
 // https://vite.dev/config/
-export default defineConfig(({ mode }) => ({
+export default defineConfig({
   // blueberrrrrry.github.io 사용자 페이지 → 루트(/)에서 서빙
   base: '/',
   plugins: [react()],
@@ -26,4 +26,4 @@ export default defineConfig(({ mode }) => ({
     host: true,
     port: 5173
   }
-}))
+})
