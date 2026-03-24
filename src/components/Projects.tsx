@@ -170,7 +170,7 @@ const Projects = () => {
       category: '웹 애플리케이션, 이커머스',
       period: '2025.08 - 2025.09',
       team: '팀 프로젝트',
-      technologies: ['React 18', 'TypeScript', 'Supabase', 'React Query', 'React Router', 'TailwindCSS', 'Vite', '토스페이먼츠'],
+      technologies: ['React', 'TypeScript', 'Supabase', 'React Router', 'TailwindCSS', 'Vite', '토스페이먼츠'],
       features: [
         '카테고리/필터/검색 기반 상품 탐색',
         '장바구니 및 주문 상태 즉시 반영',
@@ -227,7 +227,7 @@ const Projects = () => {
       category: '게임 개발, 웹 애플리케이션',
       period: '2025.09 - 2025.10',
       team: '팀 프로젝트',
-      technologies: ['Unity', 'C#', 'React', 'TypeScript', 'Socket.IO', 'WebGL', 'Node.js', 'Express.js', 'Vite'],
+      technologies: ['Unity', 'C#', 'React', 'TypeScript', 'WebGL', 'Node.js', 'Express.js', 'Vite'],
       features: [
         '3D 학교 로비 및 곡 선택 화면',
         '2곡 리듬 플레이와 기본 판정 시스템',
@@ -284,7 +284,7 @@ const Projects = () => {
       category: '웹 애플리케이션',
       period: '2026.01 - 2026.02',
       team: '팀 프로젝트',
-      technologies: ['React 19', 'TypeScript', 'TailwindCSS', '토스페이먼츠', 'PostgreSQL', 'RLS', 'Render'],
+      technologies: ['React', 'TypeScript', 'TailwindCSS', '토스페이먼츠', 'PostgreSQL', 'RLS'],
       features: [
         '실시간 주문 및 재고 관리 시스템',
         '토스페이먼츠 결제 연동',

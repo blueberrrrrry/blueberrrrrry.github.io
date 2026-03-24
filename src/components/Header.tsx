@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion'
-import { Sun, Moon, Menu, X } from 'lucide-react'
+import { Sun, Moon, Menu, X, FileDown } from 'lucide-react'
 import { useState } from 'react'
 import { trackDarkModeToggle, trackNavigation } from '../utils/analytics'
 import { scrollToSectionWithOffset } from '../utils/scrollToSection'
@@ -35,6 +35,10 @@ const Header = ({ darkMode, toggleDarkMode }: HeaderProps) => {
     trackDarkModeToggle(!darkMode)
   }
 
+  const handleSaveAsPdf = () => {
+    window.print()
+  }
+
   return (
     <motion.header
       initial={{ opacity: 0, y: -20 }}
@@ -66,6 +70,17 @@ const Header = ({ darkMode, toggleDarkMode }: HeaderProps) => {
               </motion.button>
             ))}
 
+            {/* PDF 저장 버튼 */}
+            <motion.button
+              onClick={handleSaveAsPdf}
+              whileHover={{ scale: 1.05 }}
+              whileTap={{ scale: 0.95 }}
+              className="no-print px-3 py-2 rounded-lg text-sm font-medium text-white bg-apple-blue hover:bg-apple-blue/90 transition-colors duration-200 flex items-center gap-1.5"
+            >
+              <FileDown size={18} />
+              PDF로 저장
+            </motion.button>
+
             {/* 다크모드 토글 */}
             <motion.button
               onClick={handleDarkModeToggle}
@@ -79,6 +94,15 @@ const Header = ({ darkMode, toggleDarkMode }: HeaderProps) => {
 
           {/* 모바일 메뉴 버튼 */}
           <div className="md:hidden flex items-center space-x-4">
+            <motion.button
+              onClick={handleSaveAsPdf}
+              whileHover={{ scale: 1.1 }}
+              whileTap={{ scale: 0.9 }}
+              className="no-print p-2 rounded-full bg-apple-blue text-white"
+              title="PDF로 저장"
+            >
+              <FileDown size={20} />
+            </motion.button>
             <motion.button
               onClick={handleDarkModeToggle}
               whileHover={{ scale: 1.1 }}
@@ -110,6 +134,14 @@ const Header = ({ darkMode, toggleDarkMode }: HeaderProps) => {
           className="md:hidden overflow-hidden"
         >
           <div className="py-4 space-y-2">
+            <motion.button
+              onClick={handleSaveAsPdf}
+              whileHover={{ x: 10 }}
+              className="no-print flex items-center gap-2 w-full text-left px-4 py-2 text-apple-gray-700 dark:text-apple-gray-200 hover:text-rose-500 dark:hover:text-rose-400 transition-colors duration-200 font-medium"
+            >
+              <FileDown size={18} />
+              PDF로 저장
+            </motion.button>
             {navItems.map((item) => (
               <motion.button
                 key={item.name}

@@ -47,8 +47,9 @@ function App() {
       </main>
       
 
-      {/* 스크롤 진행바 */}
+      {/* 스크롤 진행바 (인쇄 시 숨김) */}
       <motion.div
+        data-print-hide
         className="fixed top-0 left-0 right-0 h-1 bg-gradient-to-r from-apple-blue to-purple-500 origin-left z-50"
         style={{ scaleX }}
       />
