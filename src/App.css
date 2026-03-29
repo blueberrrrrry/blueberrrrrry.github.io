@@ -72,11 +72,3 @@
 .cursor-pointer:hover {
   cursor: pointer;
 }
-
-/* 인쇄/PDF 저장 시 숨길 요소 */
-@media print {
-  .no-print,
-  [data-print-hide] {
-    display: none !important;
-  }
-}
