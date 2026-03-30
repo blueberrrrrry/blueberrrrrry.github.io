@@ -95,7 +95,6 @@ const Hero = () => {
               />
             </div>
             <p className="text-lg text-apple-gray-700 leading-relaxed mb-8 max-w-2xl">
-              AI를 다양한 도메인에 적용해 실제 서비스로 구현하고,
               웹 풀스택 개발 역량을 바탕으로 사용자 중심의
               혁신적인 디지털 솔루션을 만들어가는 개발자입니다.
             </p>
