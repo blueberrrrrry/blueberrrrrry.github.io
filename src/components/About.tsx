@@ -98,7 +98,7 @@ const About = () => {
               </p>
               
               <p>
-                특히 <strong className="text-apple-blue">React 19, TypeScript, Node.js, PostgreSQL</strong> 기반의
+                특히 <strong className="text-apple-blue">React, TypeScript, Node.js, PostgreSQL</strong> 기반의
                 웹 서비스 개발과 <strong className="text-apple-blue">Unity/C# 게임 개발</strong>,
                 <strong className="text-apple-blue"> React Native 기반 모바일 개발</strong>까지
                 도메인에 맞는 기술 스택을 선택해 구현하는 데 강점이 있습니다.
