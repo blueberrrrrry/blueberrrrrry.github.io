@@ -95,8 +95,9 @@ const Hero = () => {
               />
             </div>
             <p className="text-lg text-apple-gray-700 leading-relaxed mb-8 max-w-2xl">
-              웹 풀스택 개발 역량을 바탕으로 사용자 중심의
-              혁신적인 디지털 솔루션을 만들어가는 개발자입니다.
+              Java와 데이터베이스 중심으로 기초를 다지고
+              React와 TypeScript를 활용해 사용자 중심의
+              웹 서비스를 구현해가는 개발자입니다.
             </p>
             <div className="flex">
               <motion.a
