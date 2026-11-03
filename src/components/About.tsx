@@ -5,13 +5,13 @@ const About = () => {
   const features = [
     {
       icon: <Code className="w-8 h-8" />,
-      title: '풀스택 개발',
-      description: 'React, TypeScript, Node.js를 중심으로 한 현대적인 웹 애플리케이션 풀스택 개발'
+      title: '서비스 기획 & 설계',
+      description: '아이디어를 구체적인 기능과 화면 단위의 요구사항으로 정의하고 실현 가능한 프로덕트로 설계'
     },
     {
       icon: <Database className="w-8 h-8" />,
-      title: '데이터베이스 설계',
-      description: 'PostgreSQL 기반 데이터 모델링, RLS 권한 설계, 실시간 데이터 동기화 등 데이터베이스 중심 서비스 설계 경험'
+      title: '데이터 기반 의사결정',
+      description: '정량적 지표와 정성적 피드백을 분석하여 가설을 수립하고 최적의 프로덕트 방향성을 도출'
     },
     {
       icon: <Users className="w-8 h-8" />,
@@ -37,7 +37,7 @@ const About = () => {
           className="text-center mb-16"
         >
           <h2 className="text-4xl md:text-5xl font-bold text-apple-dark dark:text-white mb-6">
-            개발자 <span className="text-gradient-apple">최윤아</span>
+            IT <span className="text-gradient-apple">최윤아</span>
           </h2>
 
         </motion.div>
@@ -83,31 +83,23 @@ const About = () => {
             
             <div className="space-y-4 text-apple-gray-600 dark:text-apple-gray-300 leading-relaxed">
               <p>
-                저는 AI와 웹 풀스택 개발에 집중하며,
-                최신 기술을 활용해 사용자에게 실질적인 가치를 제공하는 서비스를 만들어왔습니다.
+                저는 무엇을 만들지보다, 왜 필요한지를 먼저 묻는 편입니다.
+                아이디어를 사용자 흐름과 우선순위로 정리하고, 실제로 쓰이는 서비스로 연결해왔습니다.
               </p>
               
               <p>
-                <strong className="text-apple-blue">편의점 종합 솔루션</strong>부터
-                <strong className="text-apple-blue"> 쇼핑몰 통합 플랫폼</strong>,
-                <strong className="text-apple-blue"> 리듬게임 프로젝트</strong>,
+                <strong className="text-apple-blue">편의점 종합 솔루션</strong>에서는 고객·점주·본사가 함께 움직이는 구조를,
+                <strong className="text-apple-blue"> 쇼핑몰 통합 플랫폼</strong>에서는 탐색부터 결제까지의 구매 흐름을,
+                <strong className="text-apple-blue"> 리듬게임</strong>,
                 <strong className="text-apple-blue"> 라쿤게임</strong>,
                 <strong className="text-apple-blue"> 윷잡자</strong>,
-                <strong className="text-apple-blue"> 파워킹</strong>까지 다양한
-                서비스/게임 프로젝트를 통해 실제 사용자 문제를 해결하는 제품을 구현해왔습니다.
-              </p>
-              
-              <p>
-                특히 <strong className="text-apple-blue">React, TypeScript, Node.js, PostgreSQL</strong> 기반의
-                웹 서비스 개발과 <strong className="text-apple-blue">Unity/C# 게임 개발</strong>,
-                <strong className="text-apple-blue"> React Native 기반 모바일 개발</strong>까지
-                도메인에 맞는 기술 스택을 선택해 구현하는 데 강점이 있습니다.
+                <strong className="text-apple-blue"> 파워킹</strong>에서는
+                플레이어가 바로 이해하고 반복하고 싶은 경험을 중심으로 제품을 만들어왔습니다.
               </p>
 
                <p>
-                또한 Cursor랑 Antigravity 등 다양한 <strong className="text-apple-blue">바이브 코딩(Vibe Coding) </strong>툴을 깊이 이해하고 능숙하게 활용하며,
-                이를 통해 <strong className="text-apple-blue">개발 효율을 극대화</strong>하고 <strong className="text-apple-blue">빠른 프로토타이핑·아이디어 검증·실시간 협업</strong>이 가능한 개발 환경을 구축해왔습니다.
-                이러한 워크플로우 혁신을 통해, 단순한 코드 작성이 아닌 <strong className="text-apple-blue">창의적 문제 해결 중심의 개발</strong>을 실천하고 있습니다.
+                또한 Cursor랑 Antigravity 등 다양한 <strong className="text-apple-blue">바이브 코딩(Vibe Coding) </strong>툴을 깊이 이해하고 능숙하게 활용하고 함께 다듬는 협업에도 익숙합니다.
+                제가 잘하는 일은 기능 목록을 늘리는 것이 아니라, <strong className="text-apple-blue">필요한 경험을 선명하게 만드는 것</strong>입니다.
               </p>
             </div>
 

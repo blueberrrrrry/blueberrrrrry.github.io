@@ -15,9 +15,7 @@ const Header = ({ darkMode, toggleDarkMode }: HeaderProps) => {
   const navItems = [
     { name: '홈', href: '#hero' },
     { name: '소개', href: '#about' },
-    { name: '프로젝트', href: '#projects' },
-    { name: '기술', href: '#skills' },
-    { name: '연락처', href: '#hero' }
+    { name: '프로젝트', href: '#projects' }
   ]
 
   const scrollToSection = (href: string) => {

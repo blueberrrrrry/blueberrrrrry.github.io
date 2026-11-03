@@ -71,7 +71,7 @@ const Hero = () => {
             className="lg:col-span-7"
           >
             <h1 className="text-4xl md:text-6xl font-bold text-apple-dark mb-4">
-              개발자{' '}
+              IT {' '}
               <span className="text-gradient-apple">
                 최윤아
               </span>
@@ -79,13 +79,11 @@ const Hero = () => {
             <div className="text-xl md:text-2xl text-apple-gray-700 font-medium h-16 mb-6">
               <TypeAnimation
                 sequence={[
-                  '끊임없이 발전하는 개발자',
+                  '끊임없이 발전합니다',
                   2000,
-                  'AI와 웹 풀스택 개발자',
+                  '기술과 창의성을 연결합니다',
                   2000,
-                  '기술과 창의성을 연결하는 개발자',
-                  2000,
-                  'AI와 협업하며 속도와 완성도를 높이는 개발자',
+                  'AI와 협업하며 속도와 완성도를 높입니다',
                   2000,
                 ]}
                 wrapper="span"
@@ -95,9 +93,9 @@ const Hero = () => {
               />
             </div>
             <p className="text-lg text-apple-gray-700 leading-relaxed mb-8 max-w-2xl">
-              Java와 데이터베이스 중심으로 기초를 다지고
-              React와 TypeScript를 활용해 사용자 중심의
-              웹 서비스를 구현해가는 개발자입니다.
+              무엇이 필요한지 먼저 묻고
+              그걸 실제로 쓰이는 서비스로 만드는 과정을 즐깁니다
+              기술보다 사용자에게 닿는 결과를 중요하게 봅니다.
             </p>
             <div className="flex">
               <motion.a
@@ -122,27 +120,6 @@ const Hero = () => {
             className="lg:col-span-5"
           >
             <div className="bg-white/90 dark:bg-apple-gray-800/90 border border-rose-100 dark:border-apple-gray-700 rounded-3xl p-6 shadow-xl backdrop-blur-sm">
-              <div className="grid grid-cols-2 gap-4 mb-5">
-                <div className="rounded-2xl bg-rose-50 dark:bg-apple-gray-700 p-4">
-                  <p className="text-sm text-apple-gray-600 dark:text-apple-gray-300">포지션</p>
-                  <p className="font-semibold text-apple-dark dark:text-white">Full-Stack</p>
-                </div>
-                <div className="rounded-2xl bg-rose-50 dark:bg-apple-gray-700 p-4">
-                  <p className="text-sm text-apple-gray-600 dark:text-apple-gray-300">관심분야</p>
-                  <p className="font-semibold text-apple-dark dark:text-white">AI + Product</p>
-                </div>
-                <div className="rounded-2xl bg-rose-50 dark:bg-apple-gray-700 p-4">
-                  <p className="text-sm text-apple-gray-600 dark:text-apple-gray-300">주요스택</p>
-                  <p className="font-semibold text-apple-dark dark:text-white">TypeScript / React / Node.js</p>
-                </div>
-                <div className="rounded-2xl bg-rose-50 dark:bg-apple-gray-700 p-4">
-                  <p className="text-sm text-apple-gray-600 dark:text-apple-gray-300">작업스타일</p>
-                  <p className="font-semibold text-apple-dark dark:text-white">Vibe Coding</p>
-                </div>
-              </div>
-            </div>
-
-            <div className="mt-4 bg-white/90 dark:bg-apple-gray-800/90 border border-rose-100 dark:border-apple-gray-700 rounded-3xl p-6 shadow-xl backdrop-blur-sm">
               <h4 className="text-lg font-semibold text-apple-dark dark:text-white mb-4">
                 개인정보
               </h4>
